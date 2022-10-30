@@ -462,6 +462,7 @@ color: var(--white-color);
   height: 50px;
   margin-left: 93px;
   margin-right: 12px;
+  padding-left: 16px;
   
   background-color: var(--title-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
