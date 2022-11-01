@@ -466,8 +466,9 @@ color: var(--white-color);
   outline: none;
   background-color: var(--title-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--white-color);
 }
 .footer-sing-up-buttom{
   display: flex;
@@ -659,9 +660,9 @@ fill: var(--blue-color);
 input,label{
   display: block;
 }
-.window-titel{
+.window-title{
   font-size: 20px;
- line-height: 1.15px;
+ line-height: 1.15;
  text-align: center;
  letter-spacing: 0.03em;
  margin-bottom: 12px;
@@ -768,7 +769,8 @@ input,label{
  line-height: 1.875;
  letter-spacing: 0.06em;
  padding: 10px 52px;
-  margin: 30px auto 20px;
+  margin: auto;
+  margin-top: 30px;
   border-radius: 4px;
   border: 0px;
   cursor: pointer;
